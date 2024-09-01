@@ -1,7 +1,5 @@
 import React from "react";
 
-//import Components
-import Header from "../components/header";
 
 function home() {
   return (
