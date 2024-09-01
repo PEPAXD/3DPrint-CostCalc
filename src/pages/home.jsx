@@ -1,16 +1,19 @@
 import React from "react";
 
-
 function home() {
   return (
     <>
-      <div class="flex flex-col items-center justify-center h-screen px-4">
+      <div class="flex flex-col items-center justify-center h-screen p-8">
         <h1 class="text-4xl font-bold text-withe-800 mb-4">Coming Soon</h1>
-        <p class="text-gray-100 text-lg">
+        <p class="text-lg text-gray-100 text-center font-light">
           I.m working hard to bring you an amazing new website. Stay tuned!
         </p>
 
-    <img className="h-3/5 m-5 rounded-3xl border-2 border-gray-400 border-dashed" src="sketchProject.svg" alt="" />
+        <img
+          className="min-h-64  m-5 rounded-3xl border-2 border-gray-400 border-dashed"
+          src="sketchProject.svg"
+          alt=""
+        />
 
         <div class="flex space-x-4">
           <a href="https://github.com/PEPAXD/3DPrint-CostCalc" target="_blank">
