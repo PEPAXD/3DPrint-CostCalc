@@ -9,7 +9,7 @@ import {
 
 function header() {
   return (
-    <header className="bg-white border-gray-200 dark:bg-gray-900 shadow-lg">
+    <header className="bg-white border-gray-200 dark:bg-gray-900 shadow-lg px-4">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <SiBlueprint className="w-8 h-8 dark:text-white" />
@@ -18,7 +18,7 @@ function header() {
           </span>
         </a>
 
-        <div className="flex sm:justify-center px-8 border-l-2 border-r-2 items-center h-9 cursor-pointer group">
+        <div className="flex flex-col items-center justify-center sm:justify-center px-8 border-l-2 border-r-2 h-9 cursor-pointer group">
           <span className="uppercase absolute opacity-1 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none">
             Follow me
           </span>

@@ -10,7 +10,7 @@ function home() {
         </p>
 
         <img
-          className="min-h-64  m-5 rounded-3xl border-2 border-gray-400 border-dashed"
+          className="min-h-64  m-5 rounded-3xl border-2 border-gray-400 border-dashed bg-RichBlack"
           src="sketchProject.svg"
           alt=""
         />
