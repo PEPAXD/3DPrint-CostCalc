@@ -1,10 +1,13 @@
 import "./App.css";
 
+//Pages
+import Home from "./pages/home.jsx";
+
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <h1 className="text-6xl font-bold underline text-center">FIRST COMMIT!!!</h1>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
