@@ -10,7 +10,7 @@ function home() {
           I.m working hard to bring you an amazing new website. Stay tuned!
         </p>
 
-    <img className="h-3/5 m-5 rounded-3xl border-2 border-gray-400 border-dashed" src="https://private-user-images.githubusercontent.com/107534710/363502228-8ea177d8-543f-4810-9d01-155a7a49cf34.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjUyMTE2NDYsIm5iZiI6MTcyNTIxMTM0NiwicGF0aCI6Ii8xMDc1MzQ3MTAvMzYzNTAyMjI4LThlYTE3N2Q4LTU0M2YtNDgxMC05ZDAxLTE1NWE3YTQ5Y2YzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkwMVQxNzIyMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOTU5OTM3NWRiYTY4ZDA4NzQ0MGJlOWI3YTNmMDE1NjFlOTJlZGVkZTczNGVkZjU3ODI5MWQzMjAxMzkyNTU0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.FKATmd-Y8_DHpLJlo8H-eDHnL-KmTKaet88YGCzKZoA" alt="" />
+    <img className="h-3/5 m-5 rounded-3xl border-2 border-gray-400 border-dashed" src="sketchProject.svg" alt="" />
 
         <div class="flex space-x-4">
           <a href="https://github.com/PEPAXD/3DPrint-CostCalc" target="_blank">
