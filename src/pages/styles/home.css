@@ -3,10 +3,10 @@
     width: 100%;
     height: 100%;
   
-    background: transparent;
+    background: #192239;
     --gap: 6em;
     --line: 1px;
-    --color: rgba(255, 255, 255, 0.5);
+    --color: rgba(255, 255, 255, 0.3);
   
     background-image: linear-gradient(
         -90deg,
