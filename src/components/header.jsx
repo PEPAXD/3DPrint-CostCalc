@@ -9,7 +9,7 @@ import {
 
 function header() {
   return (
-    <header className="bg-white border-gray-200 bg-gray-900 px-4 border-b-2">
+    <header className= "border-gray-200 bg-gray-900 px-4 border-b-2">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <SiBlueprint className="w-8 h-8 dark:text-white" />
