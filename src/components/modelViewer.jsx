@@ -22,7 +22,7 @@ function modelViewer() {
         </div>
       ) : (
         <div className="relative w-full rounded-xl border-2 border-white-900 flex justify-center items-center">
-          <File3D_UI />
+          <File3D_UI file={uploadedFile}/>
         </div>
       )}
     </div>

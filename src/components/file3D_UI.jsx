@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function file3D_UI() {
+function file3D_UI({ file }) {
   return (
-    <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray-600 opacity-20">
-        <h1>FILE NAME</h1>
-    </div>
-  )
+    <>
+      <h2 className="absolute top-16 left-1/2 transform -translate-x-1/2 text-white text-4xl underline underline-offset-4">
+        {file.name}
+      </h2>
+    </>
+  );
 }
 
-export default file3D_UI
+export default file3D_UI;
