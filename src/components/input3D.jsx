@@ -2,11 +2,9 @@ import React from "react";
 import { TbFile3D } from "react-icons/tb";
 
 function input3D({ onFileUpload }) {
-  const handleFileChange = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      onFileUpload(file);
-    }
+  
+  const handleFileChange = (e) => {
+    onFileUpload(e.target.files[0]);
   };
 
   return (
