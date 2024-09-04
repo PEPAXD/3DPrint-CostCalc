@@ -9,6 +9,7 @@ function home() {
     <main className="bg-gray-900 h-screen">
       <div className="container max-w-full flex">
         <ModelViewer />
+        
       </div>
     </main>
   );

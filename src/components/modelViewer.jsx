@@ -5,6 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 //import Components
 import Input3D from "./input3D";
 import File3D_UI from "./file3D_UI";
+import Model3D from "./model3D";
 
 function modelViewer() {
   const [uploadedFile, setUploadedFile] = useState(null);
@@ -26,7 +27,7 @@ function modelViewer() {
 
           {/* TODO: Add the model object here */}
           <div className="absolute w-full flex justify-center">
-            <h1 className="text-8xl">MODEL OBJECT HERE!!!</h1>
+            <Model3D />
           </div>
         </div>
       )}
