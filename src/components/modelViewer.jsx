@@ -15,9 +15,11 @@ function modelViewer() {
 
   return (
     <div className="flex h-full w-full p-3">
-      <div className="relative w-full rounded-xl border-dashed border-2 border-white-900 flex justify-center items-center">
-        {!uploadedFile && <Input3D onFileUpload={handleFileUpload} />}
-      </div>
+      {!uploadedFile && (
+        <div className="relative w-full rounded-xl border-dashed border-2 border-white-900 flex justify-center items-center">
+          <Input3D onFileUpload={handleFileUpload} />
+        </div>
+      )}
     </div>
   );
 }
