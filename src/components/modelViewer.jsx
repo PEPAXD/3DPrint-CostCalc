@@ -16,13 +16,13 @@ function modelViewer() {
   };
 
   return (
-    <div className="flex h-full w-full p-3">
+    <div className="flex h-full w-full">
       {!uploadedFile ? (
-        <div className="relative w-full rounded-xl border-dashed border-2 border-white-900 flex justify-center items-center">
+        <div className="relative w-full border-dashed border-r-2 border-white-900 flex justify-center items-center">
           <Input3D onFileUpload={handleFileUpload} />
         </div>
       ) : (
-        <div className="relative w-full rounded-xl border-2 border-white-900 flex justify-center items-center">
+        <div className="relative w-full border-r-2 border-white-900 flex justify-center items-center">
           <File3D_UI file={uploadedFile} />
 
           {/* TODO: Add the model object here */}
