@@ -1,5 +1,8 @@
 import React from "react";
 
+//import Component
+import Dropdowns from "./dropdowns";
+
 function calculatorViewer() {
   return (
     <div className="flex h-full w-full p-3 dark:bg-gray-900 shadow-lg">
@@ -20,13 +23,25 @@ function calculatorViewer() {
 
                   <div className=" text-gray-400 my-4 text-base">
                     <p className="pl-4">
-                    Calcula el costo total de impresión 3D, teniendo en cuenta la amortización de la máquina, los costos de fabricación, postproducción e impuestos.
+                      Calcula el costo total de impresión 3D, teniendo en cuenta
+                      la amortización de la máquina, los costos de fabricación,
+                      postproducción e impuestos.
                     </p>
                   </div>
 
                   <hr className="border-t-1 border-white w-full" />
                   <br />
 
+                  <div class="xl:mt-0 w-full">
+                    <h5>Tipo de Filamento</h5>
+                    <cite className="pl-4 text-sm font-semibold text-gray-400 tracking-wider ">
+                      * Material &amp; Marca ($/Kg)
+                    </cite>
+
+                    <form className="my-4 flex gap-3">
+                      <Dropdowns />
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
