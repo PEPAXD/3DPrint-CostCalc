@@ -2,6 +2,7 @@ import React from "react";
 
 //import Component
 import Dropdowns from "./dropdowns";
+import NumbersInputs from "./numbersInputs";
 
 function calculatorViewer() {
   return (
@@ -23,9 +24,9 @@ function calculatorViewer() {
 
                   <div className=" text-gray-400 my-4 text-base">
                     <p className="pl-4">
-                      Calcula el costo total de impresión 3D, teniendo en cuenta
-                      la amortización de la máquina, los costos de fabricación,
-                      postproducción e impuestos.
+                      Calculate the total cost of 3D printing by considering the
+                      amortization of the machine, manufacturing costs,
+                      post-production expenses, and taxes.
                     </p>
                   </div>
 
@@ -33,14 +34,34 @@ function calculatorViewer() {
                   <br />
 
                   <div class="xl:mt-0 w-full">
-                    <h5>Tipo de Filamento</h5>
+                    <h5>Filament Type</h5>
                     <cite className="pl-4 text-sm font-semibold text-gray-400 tracking-wider ">
-                      * Material &amp; Marca ($/Kg)
+                      * Material &amp; Brand ($/Kg)
                     </cite>
 
                     <form className="my-4 flex gap-3">
                       <Dropdowns />
                     </form>
+                  </div>
+
+                  <div class="xl:mt-0 w-full">
+                    <h5>3D Printer Model</h5>
+                    <cite className="pl-4 text-sm font-semibold text-gray-400 tracking-wider ">
+                      * Brand &amp; Model ($)
+                    </cite>
+
+                    <form className="my-4 flex gap-3">
+                      <Dropdowns />
+                    </form>
+                  </div>
+
+                  <div className="flex gap-4">
+                    <NumbersInputs />
+                    <NumbersInputs />
+                  </div>
+
+                  <div>
+                    <h6>POST-PRODUCCION</h6>
                   </div>
                 </div>
               </div>
