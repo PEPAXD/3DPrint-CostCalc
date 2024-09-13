@@ -60,8 +60,17 @@ function calculatorViewer() {
                     <NumbersInputs />
                   </div>
 
-                  <div>
-                    <h6>POST-PRODUCCION</h6>
+                  <div className="w-full mb-4">
+                    <label htmlFor="postCost" className="block mb-2">
+                      <h6>POST-PRODUCCION</h6>
+                    </label>
+                    <input
+                      type="text"
+                      name="postCost"
+                      id="postCost"
+                      placeholder="E.g: [Additional services $150.000]"
+                      className="w-full py-2 pl-8 border border-gray-400 focus:outline-none focus:border-gray-100 bg-transparent"
+                    />
                   </div>
                 </div>
               </div>
