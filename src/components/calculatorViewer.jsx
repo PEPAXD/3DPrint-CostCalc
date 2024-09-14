@@ -6,13 +6,14 @@ import NumbersInputs from "./numbersInputs";
 
 function calculatorViewer() {
   return (
-    <div className="flex h-full w-full p-3 dark:bg-gray-900 shadow-lg">
+    <div className="flex h-full w-full p-3 dark:bg-gray-900 shadow-lg overflow-y-scroll">
       <div className="relative w-full flex justify-center items-center">
-        <div className="drop-shadow-xl h-full w-full overflow-hidden">
+        <div className="drop-shadow-xl h-full w-full">
           <div className="absolute flex items-center justify-center text-white z-[1]">
             <div className="h-full w-full flex items-center justify-center">
               <div className="relative w-full max-w-2xl my-8 md:my-10 flex flex-col items-start space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6 px-4 py-8">
-                <div className="w-full sm:w-auto flex flex-col items-center sm:items-start px-4">
+                
+                <div className="w-full sm:w-auto flex flex-col items-center sm:items-start px-4 ">
                   <h4
                     className="font-display mb-2 text-2xl font-semibold dark:text-gray-200"
                     itemprop="titleCalculator"
@@ -71,6 +72,12 @@ function calculatorViewer() {
                       placeholder="E.g: [Additional services $150.000]"
                       className="w-full py-2 pl-8 border border-gray-400 focus:outline-none focus:border-gray-100 bg-transparent"
                     />
+                  </div>
+
+                  <div className="w-full flex justify-end">
+                    <button className="bg-sky-600 hover:bg-sky-800 text-white font-bold py-2 px-4">
+                      Confirmar
+                    </button>
                   </div>
                 </div>
               </div>
