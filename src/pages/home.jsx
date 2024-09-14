@@ -11,10 +11,9 @@ function home() {
       <div className="container max-w-full flex">
         <ModelViewer />
 
-        <div className="w-3/5">
+        <div className="w-3/5 overflow-y-scroll">
           <CalculatorViewer />
         </div>
-        
       </div>
     </main>
   );
