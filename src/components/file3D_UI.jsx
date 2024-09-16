@@ -18,7 +18,7 @@ function file3D_UI({ file }) {
       </div>
       <button
         onClick={() => document.getElementById("fileInput").click()}
-        className="absolute bottom-4 right-4 bg-blue-500 text-white py-2 px-4 rounded"
+        className="absolute bottom-4 right-4 bg-sky-700 hover:bg-sky-900 text-white py-2 px-4"
       >
         Add New 3DFile
       </button>

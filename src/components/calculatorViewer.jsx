@@ -12,7 +12,6 @@ function calculatorViewer() {
           <div className="absolute flex items-center justify-center text-white z-[1]">
             <div className="h-full w-full flex items-center justify-center">
               <div className="relative w-full max-w-2xl my-8 md:my-10 flex flex-col items-start space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6 px-4 py-8">
-                
                 <div className="w-full sm:w-auto flex flex-col items-center sm:items-start px-4 ">
                   <h4
                     className="font-display mb-2 text-2xl font-semibold dark:text-gray-200"
@@ -74,9 +73,9 @@ function calculatorViewer() {
                     />
                   </div>
 
-                  <div className="w-full flex justify-end">
-                    <button className="bg-sky-600 hover:bg-sky-800 text-white font-bold py-2 px-4">
-                      Confirmar
+                  <div className="w-full my-2 flex justify-end">
+                    <button className="bg-sky-700 hover:bg-sky-900 text-white font-bold py-2 w-1/3">
+                      Confirm
                     </button>
                   </div>
                 </div>
